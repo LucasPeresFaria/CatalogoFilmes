@@ -1,0 +1,80 @@
+{
+  "films": [{
+      "id": 1,
+      "titulo": "Interestelar",
+      "descricao": "As reservas naturais da Terra estão chegando ao fim e um grupo de astronautas recebe a missão de verificar possíveis planetas para receberem a população mundial, possibilitando a continuação da espécie. Cooper é chamado para liderar o grupo e aceita a missão sabendo que pode nunca mais ver os filhos. Ao lado de Brand, Jenkins e Doyle, ele seguirá em busca de um novo lar.",
+      "duracao": "2h 49m",
+      "lancamento": "2014",
+      "direcao": "Christopher Nolan",
+      "critica": "8.6",
+      "Categoria": "científica/Aventura",
+      "img": "https://upload.wikimedia.org/wikipedia/pt/3/3a/Interstellar_Filme.png"
+    },
+    {
+      "id": 2,
+      "titulo": "A Origem",
+      "descricao": "Dom Cobb é um ladrão com a rara habilidade de roubar segredos do inconsciente, obtidos durante o estado de sono. Impedido de retornar para sua família, ele recebe a oportunidade de se redimir ao realizar uma tarefa aparentemente impossível: plantar uma ideia na mente do herdeiro de um império. Para realizar o crime perfeito, ele conta com a ajuda do parceiro Arthur, o discreto Eames e a arquiteta de sonhos Ariadne. Juntos, eles correm para que o inimigo não antecipe seus passos.",
+      "duracao": "2h 28m",
+      "lancamento": "2010",
+      "direcao": "Christopher Nolan",
+      "critica": "8.8",
+      "Categoria": "Thriller/Filme de ficção científica",
+      "img": "https://upload.wikimedia.org/wikipedia/pt/7/74/A_origem_poster_portugues.jpg"
+    },
+    {
+      "id": 3,
+      "titulo": "Intocáveis",
+      "descricao": "Um milionário tetraplégico contrata um homem da periferia para ser o seu acompanhante, apesar de sua aparente falta de preparo. No entanto, a relação que antes era profissional cresce e vira uma amizade que mudará a vida dos dois.",
+      "duracao": "1h 53m",
+      "lancamento": "2011",
+      "direcao": "Olivier Nakache, Éric Toledano",
+      "critica": "8.5",
+      "Categoria": "Comédia/Drama",
+      "img": "https://upload.wikimedia.org/wikipedia/pt/d/d6/Intouchables_cartaz.jpg"
+    },
+    {
+      "id": 4,
+      "titulo": "O Grande Hotel Budapeste",
+      "descricao": "Na década de 1930, o gerente de um famoso hotel europeu torna-se muito amigo de um jovem companheiro de trabalho. Os dois acabam se envolvendo no roubo de um famoso quadro de valor inestimável e na batalha por uma fortuna de família. O filme mostra as mudanças históricas na Europa que ocorreram durante os anos 20.",
+      "duracao": "1h 40m",
+      "lancamento": "2014",
+      "direcao": "Wes Anderson ",
+      "critica": "8.1",
+      "Categoria": "Comédia/Drama",
+      "img": "https://upload.wikimedia.org/wikipedia/pt/1/1f/O_Grande_Hotel_Budapeste_poster_no_Brasil_wk.png"
+    },
+    {
+      "id": 5,
+      "titulo": "De Volta Para o Futuro",
+      "descricao": "Marty McFly, um adolescente de uma pequena cidade californiana, é transportado para a década de 1950 quando a experiência do excêntrico cientista Doc Brown dá errado. Viajando no tempo em um carro modificado, Marty conhece versões jovens de seus pais e precisa fazer com que eles se apaixonem, ou então ele deixará de existir. Para complicar, Marty precisa voltar para casa a tempo de salvar o cientista.",
+      "duracao": "1h 56m",
+      "lancamento": "1985",
+      "direcao": "Robert Zemeckis",
+      "critica": "8.5",
+      "Categoria": "Ficção científica/Comédia",
+      "img": "https://upload.wikimedia.org/wikipedia/pt/9/97/BackFuturePoster.jpg"
+    },
+    {
+      "id": 6,
+      "titulo": "A Travessia",
+      "descricao": "A história do acrobata francês Philippe Petit que, mesmo sem ter autorização legal, conseguiu atravessar sobre um cabo entre as torres gêmeas do World Trade Center em 7 de agosto de 1974.",
+      "duracao": "2h 3m",
+      "lancamento": "2015",
+      "direcao": "Robert Zemeckis",
+      "critica": "7.3",
+      "Categoria": "Aventura/Drama",
+      "img": "http://br.web.img2.acsta.net/r_1920_1080/pictures/16/01/18/19/00/209614.jpg"
+    },
+    {
+      "id": 7,
+      "titulo": "a",
+      "descricao": "teste de pesquisa",
+      "duracao": "2h 3m",
+      "lancamento": "2015",
+      "direcao": "Robert Zemeckis",
+      "critica": "7.3",
+      "Categoria": "Aventura/Drama",
+      "img": "https://br.web.img3.acsta.net/pictures/18/05/02/20/53/3714024.jpg"
+    }
+  ]
+}

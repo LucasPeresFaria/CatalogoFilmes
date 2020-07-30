@@ -1,0 +1,115 @@
+
+.nowrap {
+  flex-wrap: nowrap;
+  display: -ms-flexbox;
+  display: flex;
+  overflow-x: scroll;
+}
+
+/*Barra de rolagem*/
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+ header.masthead {
+   position: relative;
+   background-color: #343a40;
+  /*background: url("../img/download.jpg") no-repeat center center;*/
+   background-size: cover;
+   padding-top: 2rem;
+   padding-bottom: 6rem;
+
+ }
+
+ header.masthead .overlay {
+   position: flex;
+   background-color: #9cc5ee;
+   height: 100%;
+   width: 100%;
+   top: 0;
+   left: 0;
+   opacity: 0.15;
+ }
+
+ header.masthead h1 {
+   font-size: 2rem;
+ }
+
+ @media (min-width: 768px) {
+
+   header.masthead h1 {
+     font-size: 3rem;
+   }
+ }
+
+/*Card de lançamento*/
+
+ .cardFilme {
+   display: absolute;
+   height: 400px;
+   width: 250px;
+   border-radius: 10px;
+   transition: 0.4s ease-out;
+   position: relative;
+   left: 0px;
+   white-space: nowrap;
+ }
+
+  .cardFilme-horizontal {
+    position: relative;
+    width: 100%;
+  }
+
+ .cardFilme:not(:first-child) {
+   margin-left: 5px;
+ }
+
+ .cardFilme:hover {
+   transform: translateY(-20px);
+   transition: 0.4s ease-out;
+ }
+
+ .cardFilme:hover~.cardFilme {
+   position: relative;
+   left: 50px;
+   transition: 0.4s ease-out;
+ }
+
+ .stroke {
+   stroke: white;
+   stroke-dasharray: 360;
+   stroke-dashoffset: 360;
+   transition: 0.6s ease-out;
+ }
+
+ .cardFilme:hover .stroke {
+   stroke-dashoffset: 100;
+   transition: 0.6s ease-out;
+ }
+
+ input[type=file] {
+   float: left;
+   display: block;
+ }
+
+ .hide {
+   display: none;
+   float: left;
+ }
