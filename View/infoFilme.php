@@ -6,7 +6,7 @@
 
   <div class="form-group ml-5 mb-5">
     <form method="get" action=".">
-      <label for="exampleInputEmail1">Pesquisa</label>
+      <label for="txtFilme">Pesquisa</label>
       <div class="row col-8">
         <input type="text" class="form-control col-7" id="txtFilme">
         <a type="submit" onclick="Pesquisa();" class="btn btn-primary ml-2">Pesquisar</a>

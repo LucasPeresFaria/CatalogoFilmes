@@ -90,6 +90,8 @@ function Pesquisa() {
       }
 
         document.getElementById('tela').innerHTML = saida;
+     
+
     }
 
     if(flag==0){

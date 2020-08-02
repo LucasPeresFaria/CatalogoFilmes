@@ -10,10 +10,10 @@
 
       <div class="form-group">
         <form method="get" action=".">
-          <label for="exampleInputEmail1">Pesquisar</label>
+          <label for="txtFilme">Pesquisar</label>
           <div class="row col-8">
-            <input type="text" class="form-control col-8" id="filme">
-            <a type="submit" onclick="loadFilms();" class="btn btn-primary ml-2">Pesquisar</a>
+            <input type="text" class="form-control col-8" id="txtFilme">
+            <button onclick="passarPesquisa()" class="btn btn-primary ml-2">Pesquisar</button>
             <a type="button" href="cadastrar.php" class="btn btn-success ml-2">Cadastrar</a>
 
           </div>
@@ -90,7 +90,6 @@
 </header>
 
 <script>
-  //ainda não tá funcionando corretamente
   document.addEventListener('DOMContentLoaded', function() {
     var stream = document.querySelector('.nowrap');
     var items = document.querySelectorAll('.cardFilme');
@@ -107,6 +106,15 @@
       items = document.querySelectorAll('.cardFilme');
     });
   });
+
+  // PASSANDO UM PARAMETRO PARA PESQUISA (Necessário aplicar de outra forma)
+
+  function passarPesquisa(valor) {
+    window.location.href = "infofilme.php?minhaVariavel=" + valor;
+  }
+
+  let parametro = 123
+  passarPesquisa(parametro);
 </script>
 
 <?php include 'footer.php'; ?>
