@@ -3,7 +3,7 @@
 include 'header.php';
 
 if(isset($_GET['txtFilme'])) { //verificando se há algum valor digitado no input
-  echo "filme: ". $_GET['txtFilme'] . "<br />";
+  echo "filme: ". $_GET['txtFilme'] . "<br />"; // teste se está pegando o valor
   }
 
 ?>

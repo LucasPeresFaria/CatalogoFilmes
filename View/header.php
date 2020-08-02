@@ -14,7 +14,7 @@
 
 </head>
 
-<body onload="Pesquisa();">
+<body onload="Pesquisa();"> <!-- Até o momento foi a única forma de pesquisar o automaticamente sem ter que clicar duas vezes em pesquisar -->
   <header id="header">
     <nav class="navbar navbar-dark bg-dark">
       <a class="navbar-brand" href="#">Catálogo Filmes</a>
