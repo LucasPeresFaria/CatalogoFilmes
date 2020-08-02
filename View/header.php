@@ -14,17 +14,12 @@
 
 </head>
 
-<body>
+<body onload="Pesquisa();">
   <header id="header">
     <nav class="navbar navbar-dark bg-dark">
       <a class="navbar-brand" href="#">Catálogo Filmes</a>
     </nav>
 
   </header>
-
-
-
-
-
 
   <!-- Fim do Cabeçalho que irá em todas as páginas  -->

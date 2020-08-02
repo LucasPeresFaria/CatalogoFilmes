@@ -1,4 +1,12 @@
-<?php include 'header.php'; ?>
+<?php
+
+include 'header.php';
+
+if(isset($_GET['txtFilme'])) { //verificando se há algum valor digitado no input
+  echo "filme: ". $_GET['txtFilme'] . "<br />";
+  }
+
+?>
 
 <!-- Masthead -->
 <header class="masthead text-white text-left" id="home">
@@ -9,12 +17,12 @@
     <div class="container">
 
       <div class="form-group">
-        <form method="get" action=".">
+        <form method="GET" action="infofilme.php">
           <label for="txtFilme">Pesquisar</label>
           <div class="row col-8">
-            <input type="text" class="form-control col-8" id="txtFilme">
-            <button onclick="passarPesquisa()" class="btn btn-primary ml-2">Pesquisar</button>
-            <a type="button" href="cadastrar.php" class="btn btn-success ml-2">Cadastrar</a>
+            <input type="text" class="form-control col-8" id="txtFilme" name="txtFilme">
+            <button type="submit" id="btnPesquisar" class="btn btn-primary ml-2">Pesquisar</button>
+            <button type="submit" class="btn btn-success ml-2">Cadastrar</a>
 
           </div>
         </form>
@@ -106,15 +114,6 @@
       items = document.querySelectorAll('.cardFilme');
     });
   });
-
-  // PASSANDO UM PARAMETRO PARA PESQUISA (Necessário aplicar de outra forma)
-
-  function passarPesquisa(valor) {
-    window.location.href = "infofilme.php?minhaVariavel=" + valor;
-  }
-
-  let parametro = 123
-  passarPesquisa(parametro);
 </script>
 
 <?php include 'footer.php'; ?>
