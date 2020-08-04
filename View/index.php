@@ -2,9 +2,9 @@
 
 include 'header.php';
 
-if(isset($_GET['txtFilme'])) { //verificando se há algum valor digitado no input
-  echo "filme: ". $_GET['txtFilme'] . "<br />"; // teste se está pegando o valor
-  }
+if (isset($_GET['txtFilme'])) { //verificando se há algum valor digitado no input
+  echo "filme: " . $_GET['txtFilme'] . "<br />"; // teste se está pegando o valor
+}
 
 ?>
 
@@ -22,7 +22,7 @@ if(isset($_GET['txtFilme'])) { //verificando se há algum valor digitado no inpu
           <div class="row col-8">
             <input type="text" class="form-control col-8" id="txtFilme" name="txtFilme">
             <button type="submit" id="btnPesquisar" class="btn btn-primary ml-2">Pesquisar</button>
-            <button type="submit" class="btn btn-success ml-2">Cadastrar</a>
+            <a type="button" href="cadastrar.php" class="btn btn-success ml-2">Cadastrar</a>
 
           </div>
         </form>

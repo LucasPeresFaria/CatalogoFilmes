@@ -8,37 +8,37 @@
 
 <section>
 
-  <form class="mb-5 mt-3" method="POST" action="">
+  <form class="mb-5 mt-3" method="GET" action="">
     <div class="ml-4 col-11">
 
       <div class="row ml-1">
         <div class="col-6 mb-3">
 
           <div class="mb-3">
-            <label for="txtNome">Título</label>
-            <input id="txtNome" type="text" class="form-control" aria-describedby="nome" placeholder="digite aqui" required name=txtNome />
+            <label for="txtTitulo">Título</label>
+            <input id="txtTitulo" type="text" class="form-control" aria-describedby="Titulo" placeholder="digite aqui" required name=txtTitulo />
           </div>
 
           <div class="row">
             <div class="mb-3 col-3">
-              <label for="txtNome">Duração</label>
-              <input id="txtNome" type="text" class="form-control" aria-describedby="nome" placeholder="digite aqui" required name=txtNome />
+              <label for="txtDuracao">Duração</label>
+              <input id="txtDuracao" type="text" class="form-control" aria-describedby="Duração de tempo do filme" placeholder="digite aqui" required name=txtDuracao />
             </div>
             <div class="mb-3 col-9">
-              <label for="txtEmail">Lançamento</label>
-              <input id="txtEmail" type="email" class="form-control" aria-describedby="e-mail" name="txtEmail" placeholder="digite aqui" required name=txtEmail />
+              <label for="txtLancamento">Lançamento</label>
+              <input id="txtLancamento" type="text" class="form-control" aria-describedby="Data de lancamento" name="txtLancamento" placeholder="digite aqui" required name=txtLancamento />
             </div>
           </div>
 
           <div class="row">
             <div class="col mb-3">
-              <label for="txtEmail">Direção</label>
-              <input id="txtEmail" type="email" class="form-control" aria-describedby="e-mail" name="txtEmail" placeholder="digite aqui" required name=txtEmail />
+              <label for="txtDirecao">Direção</label>
+              <input id="txtDirecao" type="text" class="form-control" aria-describedby="Direcao de filmes" name="txtDirecao" placeholder="digite aqui" required name=txtDirecao />
             </div>
 
             <div class="col mb-3">
-              <label for="txtEmail">Crítica</label>
-              <input id="txtEmail" type="email" class="form-control" aria-describedby="e-mail" name="txtEmail" placeholder="digite aqui" required name=txtEmail />
+              <label for="txtCritica">Crítica</label>
+              <input id="txtCritica" type="text" class="form-control" aria-describedby="Avaliacao de filme" name="txtCritica" placeholder="digite aqui" required name=txtCritica />
             </div>
           </div>
         </div>
@@ -49,20 +49,25 @@
       </div>
 
       <div class="col mb-3">
-        <label for="exampleFormControlTextarea1">Descrição</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="7"></textarea>
+        <label for="txtDescricao">Descrição</label>
+        <textarea class="form-control" id="txtDescricao" rows="7"></textarea>
       </div>
 
       <div class="col mb-3">
-        <label for="txtEmail">Banner</label>
+        <label for="txtBanner">Banner</label>
 
         <div class="custom-file">
-          <input type="file" class="custom-file-input" id="customFile">
-          <label class="custom-file-label" for="customFile">Escolha o arquivo</label>
+          <input type="file" class="custom-file-input" id="txtBanner">
+          <label class="custom-file-label" for="txtBanner">Escolha o arquivo</label>
         </div>
       </div>
 
     </div>
+
+    <div class="row ml-5">
+      <button type="submit" onclick="Cadastrar();" id="btnCadastrar" class="btn btn-success ml-2">Cadastrar</a>
+    </div>
+
   </form>
 
 

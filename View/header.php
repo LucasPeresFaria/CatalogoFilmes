@@ -11,10 +11,13 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="js/script.js"></script>
+  <script src="js/json/Catalogo.json"></script>
+
 
 </head>
 
-<body onload="Pesquisa();"> <!-- Até o momento foi a única forma de pesquisar o automaticamente sem ter que clicar duas vezes em pesquisar -->
+<body onload="Pesquisa();">
+  <!-- Até o momento foi a única forma de pesquisar o automaticamente sem ter que clicar duas vezes em pesquisar -->
   <header id="header">
     <nav class="navbar navbar-dark bg-dark">
       <a class="navbar-brand" href="#">Catálogo Filmes</a>
