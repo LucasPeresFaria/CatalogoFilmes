@@ -11,7 +11,7 @@
         <input type="text" class="form-control col-7" id="txtFilme" value="<?= $_GET['txtFilme']; ?>">
         <a type="submit" onclick="Pesquisa();" class="btn btn-primary ml-2">Pesquisar</a>
         <a type="submit" onclick="loadFilms();" class="btn btn-primary ml-2">Ver todos</a>
-        <a type="button" href="cadastrar.php" class="btn btn-success ml-2">Cadastrar</a>
+       <!-- <a type="button" href="cadastrar.php" class="btn btn-success ml-2">Cadastrar</a>-->
       </div>
     </form>
   </div>
