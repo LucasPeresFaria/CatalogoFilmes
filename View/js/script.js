@@ -111,16 +111,16 @@ function Pesquisa() {
 
 function Cadastrar() {
 
-  let saida = '';
-  let films = [];
+      let titulo = document.getElementById('txtTitulo').value;
+      let descricao = document.getElementById('txtDescricao').value;
+      let duracao = document.getElementById('txtDuracao').value;
+      let lancamento = document.getElementById('txtLancamento').value;
+      let direcao = document.getElementById('txtDirecao').value;
+      let critica = document.getElementById('txtCritica').value;
+      let img = document.getElementById('txtBanner').value;
 
-  let titulo = document.getElementById('txtTitulo').value;
-  let descricao = document.getElementById('txtDescricao').value;
-  let duracao = document.getElementById('txtDuracao').value;
-  let lancamento = document.getElementById('txtLancamento').value;
-  let direcao = document.getElementById('txtDirecao').value;
-  let critica = document.getElementById('txtCritica').value;
-  let img = document.getElementById('txtBanner').value;
-
-  let filme = { titulo: titulo, descricao: descricao, duracao: duracao, lancamento: lancamento, direcao: direcao, critica: critica, img: img}; // criando o objeto com as propriedades    
+  $.getJSON("js/json/Catalogo.json", function (data) {
+        let filme = { titulo: titulo, descricao: descricao, duracao: duracao, lancamento: lancamento, direcao: direcao, critica: critica, img: img }; // criando o objeto com as propriedades    
+        data.push(filme);
+    });
 }

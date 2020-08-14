@@ -17,13 +17,12 @@ if (isset($_GET['txtFilme'])) { //verificando se há algum valor digitado no inp
     <div class="container">
 
       <div class="form-group">
-        <form method="GET" action="infofilme.php">
+        <form action="infofilme.php">
           <label for="txtFilme">Pesquisar</label>
           <div class="row col-8">
             <input type="text" class="form-control col-8" id="txtFilme" name="txtFilme">
             <button type="submit" id="btnPesquisar" class="btn btn-primary ml-2">Pesquisar</button>
-            <a type="button" href="cadastrar.php" class="btn btn-success ml-2">Cadastrar</a>
-
+            <!--<a type="button" href="cadastrar.php" class="btn btn-success ml-2">Cadastrar</a>-->
           </div>
         </form>
       </div>
@@ -32,7 +31,8 @@ if (isset($_GET['txtFilme'])) { //verificando se há algum valor digitado no inp
       <div class="display-4 mb-2">Lançamentos
       </div>
 
-      <div class="nowrap">
+      <div class="nowrap mr-5">
+
         <div class="cardFilme mt-4" style="z-index: 1">
           <div class="bar">
             <img src="design/img/f1.jpg" width="250" height="400" alt="...">
@@ -81,14 +81,12 @@ if (isset($_GET['txtFilme'])) { //verificando se há algum valor digitado no inp
           </div>
         </div>
 
-        <a class="carousel-control-prev" onclick="plusSlides(-1)" role="button" data-slide="prev">
+        <div class="carousel-control-prev" style="width:8%" role="button" onclick="plusSlides(-1)" data-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" role="button" onclick="plusSlides(1)" data-slide="next">
+        </div>
+        <div class="carousel-control-next" role="button" onclick="plusSlides(1)" data-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
+        </div>
 
       </div>
       <!--Row -->
