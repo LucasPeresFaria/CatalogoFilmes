@@ -5,9 +5,9 @@
   <div class="overlay"></div>
 
   <div class="form-group ml-5 mb-5">
-    <form method="GET" action=".">
+    <form action=".">
       <label for="txtFilme">Pesquisa</label>
-      <div class="row col-8">
+      <div class="row col-12">
         <input type="text" class="form-control col-7" id="txtFilme" value="<?= $_GET['txtFilme']; ?>">
         <a type="submit" onclick="Pesquisa();" class="btn btn-primary ml-2">Pesquisar</a>
         <a type="submit" onclick="loadFilms();" class="btn btn-primary ml-2">Ver todos</a>
