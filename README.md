@@ -5,5 +5,7 @@ Desenvolvendo um site semelhante ao AdoroCinema, buscando criar uma catalogo de 
 Um projeto simples para aplicar os conhecimentos de programação e aumentando a complexidade com o passar do desenvolvimento.
 
 Etapa que foram desenvolvidas:
-*Uso de JSON(teste)
-*Desenvolvimento de um diagrama de classe (em andamento)
+
+* Uso de JSON(teste);
+* Desenvolvimento de um diagrama de classe (em andamento);
+* ...
