@@ -1,3 +1,11 @@
 # CatalogoFilmes
 
-Criando um site simples de catalogo de filmes utilizando no momento apenas o JSON como forma de estudo
+Desenvolvendo um site semelhante ao AdoroCinema, buscando criar uma catalogo de filmes, capaz de mapear não só o filme, mas a direção, personagens, atores, diretores, generos atribuidos ao filme e aplicar filtros de buscas mais sofisticos.
+
+Um projeto simples para aplicar os conhecimentos de programação e aumentando a complexidade com o passar do desenvolvimento.
+
+Desenvolvimento do projeto:
+
+* Uso de JSON(teste);
+* Desenvolvimento de um diagrama de classe (em andamento);
+* ...
