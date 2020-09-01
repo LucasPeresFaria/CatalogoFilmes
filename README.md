@@ -7,5 +7,6 @@ Um projeto simples para aplicar os conhecimentos de programação e aumentando a
 Desenvolvimento do projeto:
 
 * Uso de JSON(teste);
-* Desenvolvimento de um diagrama de classe (em andamento);
-* ...
+* Desenvolver um diagrama de classe (finalizado);
+* Desenvolver o model(em andamento)
+* Desenvolver o controller(em andamento)
