@@ -1,4 +1,26 @@
-<?php include 'header.php'; ?>
+<?php include 'header.php'; 
+
+include_once "../Model/conexao.php";
+
+include_once "../Model/filme.php";
+include_once "../Model/diretor.php";
+
+include_once "../Controller/FilmeDAO.php";
+include_once "../Controller/DiretorDAO.php";
+
+$conn = new Conexao();
+
+$filme = new Filme();
+$diretor = new Diretor();
+
+$filmeDAO = new FilmeDAO($conn);
+$diretorDAO = new DiretorDAO($conn);
+
+/*---------------------------------------------------------------------*/
+
+
+
+?>
 
 <!-- Masthead -->
 <header class="masthead text-white text-left" id="home">
